@@ -8,7 +8,7 @@ import rocket from './assets/rocket.svg';
 import sendBtn from './assets/send.svg';
 import userIcon from './assets/user-icon.png';
 import gptImgLogo from './assets/chatgptLogo.svg';
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { sendMsgToOpenAI } from './openai';
 
 
